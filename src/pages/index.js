@@ -19,21 +19,21 @@ const IndexPage = () => {
           </div>
           <div>
             <h2>Đăng ký học</h2>
-            <form className="form-dang-ky-hoc"  data-netlify="true">
+            <form className="form-dang-ky-hoc" name="contact" method="POST" data-netlify="true">
               <fieldset>
                 <div className="mt-2 shadow-sm">
-                  <input tabIndex="0" id="email" name="email" type="email" placeholder="Email" />
+                  <input tabIndex="0" id="email" name="email" type="email" placeholder="Email" required/>
                 </div>
               </fieldset>
               <fieldset>
                 <div>
-                  <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Số điện thoại" />
+                  <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Số điện thoại" required/>
                 </div>
               </fieldset>
               <label className="label" for="day" htmlFor="day">Chọn ngày học/ 1 buôi/ tuần/ Tối 19h- 21h /:</label>
               <fieldset>
                 <div>
-                  <select name="day" id="day">
+                  <select name="day" id="day" required>
                     <option value="tue">Thứ 3</option>
                     <option value="thu">Thứ 5</option>
                     <option value="sat">Thứ 7</option>
