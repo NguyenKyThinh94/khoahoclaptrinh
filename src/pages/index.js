@@ -10,7 +10,7 @@ const IndexPage = () => {
       <section className='form-login'>
         <Something />
         <div className="warap-form">
-          <Helmet>
+          <Helmet htmlAttributes={{ lang: 'vi' }}>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Khóa học lập trình bán chuyên</title>
@@ -24,7 +24,12 @@ const IndexPage = () => {
               <input type="hidden" name="form-name" value="contact" />
               <fieldset>
                 <div className="mt-2 shadow-sm">
-                  <input tabIndex="0" id="email" name="email" type="email" placeholder="Email" required />
+                  <input tabIndex="b0" id="name" name="name" type="text" placeholder="Tên" required />
+                </div>
+              </fieldset>
+              <fieldset>
+                <div className="mt-2 shadow-sm">
+                  <input tabIndex="b2" id="email" name="email" type="email" placeholder="Email" required />
                 </div>
               </fieldset>
               <fieldset>
@@ -32,7 +37,7 @@ const IndexPage = () => {
                   <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Số điện thoại" required />
                 </div>
               </fieldset>
-              <label className="label" for="day" htmlFor="day">Chọn ngày học/ 1 buôi/ tuần/ Tối 19h- 21h /:</label>
+              <label className="label" for="day" htmlFor="day">Chọn ngày học/ 1 buôi/ tuần/ Tối 19h- 20h30h /:</label>
               <fieldset>
                 <div>
                   <select name="day" id="day" required>
@@ -59,8 +64,8 @@ const IndexPage = () => {
       <section className='text-decreption'>
         <div className="sc-hKgILt bQgATU">
           <header>
-            <h1>Hello there !!</h1>
-            <p>Mình giới thiệu về khóa học:</p>
+            <h1>Hello there // Chào mọi người!!</h1>
+            <p>Mình giới thiệu về khóa học lập trình cho học sinh phổ thông:</p>
           </header>
           <ul>
             <li>
@@ -80,14 +85,16 @@ const IndexPage = () => {
               <h2>Cách học:</h2>
               <p>+ Chương trình học 3 tháng/ mỗi tuần 1 buổi</p>
               <p>+ Học online chủ yếu, offline 1 tháng/ lần để review kết quả</p>
-              <p>+ Tinh thân học thì mình đóng vai trò teamlead, hướng dẫn các bạn tự học tự làm là chính</p>
+              <p>+ Tinh thần học là mình đóng vai trò teamlead, hướng dẫn các bạn tự học tự làm là chính</p>
+              <p>+ Chương trình bắt đầu từ tuần đầu tiên của tháng 4</p>
             </li>
             <li>
               <h2>Giảng viên, học phí:</h2>
-              <p>+ Mình hiện đang là teamleader một công ty cntt tại Đà Nẵng</p>
+              <p>+ Mình hiện đang là teamleader với 3 năm kinh nghiệm</p>
               <p>+ Học phí: 3 tháng=400k, 1 tháng=150k, 1 buổi=40k</p>
               <p>+ Giảm 50% học phí cho các bạn nữ</p>
               <p>+ Đóng lúc nào cũng được, các bạn khó khăn thì ib mình trực tiếp</p>
+              <p>+ Kết nối với mình qua email: kythinh94@gmail.com</p>
             </li>
           </ul>
         </div>
