@@ -18,7 +18,8 @@ const IndexPage = () => {
           <div className="line">
           </div>
           <div>
-            <h2>Đăng ký học</h2>
+            <h2 style={{ marginBottom: '0px' }}>Đăng ký khóa học</h2>
+            <h5 style={{ marginTop: '0px' }}>Lập trình cho học sinh phổ thông</h5>
             <form className="form-dang-ky-hoc" name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="bot-field" />
               <input type="hidden" name="form-name" value="contact" />
@@ -71,7 +72,7 @@ const IndexPage = () => {
             <li>
               <h2>Mục đích:</h2>
               <p>+ Mang đến cho các bạn học sinh trải nghiệm như là một lập trình viên chuyên nghiệp</p>
-              <p>+ Cung cấp kiến thứ đủ để các bạn thực hiện một trang web</p>
+              <p>+ Cung cấp kiến thức đủ để các bạn thực hiện một trang web</p>
               <p>+ Hướng nghiệp và chia sẽ kinh nghiệm học tập làm việc</p>
             </li>
             <li>

@@ -92,6 +92,7 @@ footer {
   position: relative;
   outline: none;
   justify-self: start;
+  width: 100%;
 }
 
 .kQZIqz {
@@ -165,7 +166,7 @@ footer {
   }
 
   .main-page {
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: 100%;
   }
 
