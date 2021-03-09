@@ -19,7 +19,7 @@ const IndexPage = () => {
           </div>
           <div>
             <h2>Đăng ký học</h2>
-            <form className="form-dang-ky-hoc">
+            <form className="form-dang-ky-hoc"  data-netlify="true">
               <fieldset>
                 <div className="mt-2 shadow-sm">
                   <input tabIndex="0" id="email" name="email" type="email" placeholder="Email" />
