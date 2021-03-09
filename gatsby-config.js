@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Dạy lập trình web bán chuyên",
+    description: `Dạy lập trình web bán chuyên`,
+    author: `@thinhnguyen`,
+    siteUrl: `https://daylaptrinhbanchuyen.net`
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
