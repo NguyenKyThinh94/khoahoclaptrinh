@@ -6,7 +6,7 @@ import './style.css'
 const IndexPage = () => {
   return (
     <main className="main-page">
-      
+
       <section className='form-login'>
         <Something />
         <div className="warap-form">
@@ -20,14 +20,16 @@ const IndexPage = () => {
           <div>
             <h2>Đăng ký học</h2>
             <form className="form-dang-ky-hoc" name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
               <fieldset>
                 <div className="mt-2 shadow-sm">
-                  <input tabIndex="0" id="email" name="email" type="email" placeholder="Email" required/>
+                  <input tabIndex="0" id="email" name="email" type="email" placeholder="Email" required />
                 </div>
               </fieldset>
               <fieldset>
                 <div>
-                  <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Số điện thoại" required/>
+                  <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Số điện thoại" required />
                 </div>
               </fieldset>
               <label className="label" for="day" htmlFor="day">Chọn ngày học/ 1 buôi/ tuần/ Tối 19h- 21h /:</label>
