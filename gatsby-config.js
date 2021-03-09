@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Site",
+    title: "Dạy lập trình web bán chuyên",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/favicon.png",
       },
     },
     "gatsby-transformer-remark",
@@ -34,5 +34,11 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        path: "./src/images/"
+      }
+    }
   ],
 };
