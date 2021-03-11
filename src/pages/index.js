@@ -65,7 +65,7 @@ const IndexPage = () => {
       <section className='text-decreption'>
         <div className="sc-hKgILt bQgATU">
           <header>
-            <h1>Hello there // Chào mọi người!!</h1>
+            <h1>Chào mọi người!!</h1>
             <p>Mình giới thiệu về khóa học lập trình cho học sinh phổ thông:</p>
           </header>
           <ul>

@@ -42,6 +42,12 @@ module.exports = {
       options: {
         path: "./src/images/"
       }
+    },
+    {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "6049843a385de407571eda7c",
+      },
     }
   ],
 };
