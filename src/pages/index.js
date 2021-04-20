@@ -19,7 +19,6 @@ const IndexPage = () => {
           </div>
           <div>
             <h2 style={{ marginBottom: '0px' }}>Đăng ký khóa học</h2>
-            <h5 style={{ marginTop: '0px' }}>Lập trình cho học sinh phổ thông</h5>
             <form className="form-dang-ky-hoc" name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="bot-field" />
               <input type="hidden" name="form-name" value="contact" />
@@ -29,24 +28,8 @@ const IndexPage = () => {
                 </div>
               </fieldset>
               <fieldset>
-                <div className="mt-2 shadow-sm">
-                  <input tabIndex="b2" id="email" name="email" type="email" placeholder="Email" required />
-                </div>
-              </fieldset>
-              <fieldset>
                 <div>
                   <input id="phoneNumber" name="phoneNumber" type="number" placeholder="Số điện thoại" required />
-                </div>
-              </fieldset>
-              <label className="label" for="day" htmlFor="day">Chọn ngày học/ 1 buôi/ tuần/ Tối 19h- 20h30h /:</label>
-              <fieldset>
-                <div>
-                  <select name="day" id="day" required>
-                    <option value="tue">Thứ 3</option>
-                    <option value="thu">Thứ 5</option>
-                    <option value="sat">Thứ 7</option>
-                    <option value="sun">Chủ nhật</option>
-                  </select>
                 </div>
               </fieldset>
               <fieldset>
@@ -81,13 +64,6 @@ const IndexPage = () => {
               <p>+ Html5, css3, Js,( tùy chọn học thêm python )</p>
               <p>+ Bài tập liên tục theo tiến độ học</p>
               <p>+ Cuối khóa làm bài tập theo nhóm, quản lý dự án với git/ jira</p>
-            </li>
-            <li>
-              <h2>Cách học:</h2>
-              <p>+ Chương trình học 3 tháng/ mỗi tuần 1 buổi</p>
-              <p>+ Học online chủ yếu, offline 1 tháng/ lần để review kết quả</p>
-              <p>+ Tinh thần học là mình đóng vai trò teamlead, hướng dẫn các bạn tự học tự làm là chính</p>
-              <p>+ Chương trình bắt đầu từ tuần đầu tiên của tháng 4</p>
             </li>
             <li>
               <h2>Giảng viên, học phí:</h2>
