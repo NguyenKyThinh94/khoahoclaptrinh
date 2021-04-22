@@ -68,7 +68,7 @@ const IndexPage = () => {
             <li>
               <h2>Giảng viên, học phí:</h2>
               <p>+ Mình hiện đang là teamleader với 3 năm kinh nghiệm</p>
-              <p>+ Học phí: 3 tháng=300k, 1 tháng=100k</p>
+              <p>+ Học phí: 3 tháng=300k, 1 tháng=110k</p>
               <p>+ Giảm 50% học phí cho các bạn nữ</p>
               <p>+ Đóng lúc nào cũng được, các bạn khó khăn thì ib mình trực tiếp</p>
               <p>+ Kết nối với mình qua email: kythinh94@gmail.com</p>
